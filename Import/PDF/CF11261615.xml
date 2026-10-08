@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Invoice xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+  xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+  xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2">
+<cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</cbc:CustomizationID>
+<cbc:ProfileID>urn:fdc:peppol.eu:2017:poacc:billing:01:1.0</cbc:ProfileID>
+<cbc:ID>11261615</cbc:ID>
+<cbc:IssueDate>2026-09-30</cbc:IssueDate>
+<cbc:DueDate>2026-09-30</cbc:DueDate>
+<cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
+<cbc:Note>INVOICE</cbc:Note>
+<cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
+<cbc:BuyerReference>REFERENCE NON IDENTIFIEE</cbc:BuyerReference>
+<cac:AccountingSupplierParty>
+<cac:Party>
+<cbc:EndpointID schemeID="9925">BE0563404209</cbc:EndpointID>
+<cac:PartyName>
+<cbc:Name>RCARRE BELGIQUE SPRL</cbc:Name>
+</cac:PartyName>
+<cac:PostalAddress>
+<cbc:StreetName>RUE D ABHOOZ, 27</cbc:StreetName>
+<cbc:CityName>HERSTAL</cbc:CityName>
+<cbc:PostalZone>4040</cbc:PostalZone>
+<cac:Country>
+<cbc:IdentificationCode>BE</cbc:IdentificationCode>
+</cac:Country>
+</cac:PostalAddress>
+<cac:PartyTaxScheme>
+<cbc:CompanyID>BE0563404209</cbc:CompanyID>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:PartyTaxScheme>
+<cac:PartyLegalEntity>
+<cbc:RegistrationName>RCARRE BELGIQUE SPRL</cbc:RegistrationName>
+</cac:PartyLegalEntity>
+<cac:Contact>
+<cbc:Name>ROCHE JEAN-GUY</cbc:Name>
+<cbc:Telephone>+32 4 268 09 41</cbc:Telephone>
+<cbc:ElectronicMail>CONTACT@RCARRE.COM</cbc:ElectronicMail>
+</cac:Contact>
+</cac:Party>
+</cac:AccountingSupplierParty>
+<cac:AccountingCustomerParty>
+<cac:Party>
+<cbc:EndpointID schemeID="9925">BE0453437386</cbc:EndpointID>
+<cac:PartyName>
+<cbc:Name>ARCATECH SA</cbc:Name>
+</cac:PartyName>
+<cac:PostalAddress>
+<cbc:StreetName>QUAI SAINT-LEONARD 61</cbc:StreetName>
+<cbc:CityName>LIEGE</cbc:CityName>
+<cbc:PostalZone>4000</cbc:PostalZone>
+<cac:Country>
+<cbc:IdentificationCode>BE</cbc:IdentificationCode>
+</cac:Country>
+</cac:PostalAddress>
+<cac:PartyTaxScheme>
+<cbc:CompanyID>BE0453437386</cbc:CompanyID>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:PartyTaxScheme>
+<cac:PartyLegalEntity>
+<cbc:RegistrationName>ARCATECH SA</cbc:RegistrationName>
+</cac:PartyLegalEntity>
+</cac:Party>
+</cac:AccountingCustomerParty>
+<cac:PaymentMeans>
+<cbc:PaymentMeansCode>30</cbc:PaymentMeansCode>
+<cbc:PaymentID>410000845 / 11261615</cbc:PaymentID>
+<cac:PayeeFinancialAccount>
+<cbc:ID>BE49001738188971</cbc:ID>
+<cac:FinancialInstitutionBranch>
+<cbc:ID>GEBABEBB</cbc:ID>
+</cac:FinancialInstitutionBranch>
+</cac:PayeeFinancialAccount>
+</cac:PaymentMeans>
+<cac:TaxTotal>
+<cbc:TaxAmount currencyID="EUR">64.84</cbc:TaxAmount>
+<cac:TaxSubtotal>
+<cbc:TaxableAmount currencyID="EUR">308.75</cbc:TaxableAmount>
+<cbc:TaxAmount currencyID="EUR">64.84</cbc:TaxAmount>
+<cac:TaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:TaxCategory>
+</cac:TaxSubtotal>
+</cac:TaxTotal>
+<cac:LegalMonetaryTotal>
+<cbc:LineExtensionAmount currencyID="EUR">308.75</cbc:LineExtensionAmount>
+<cbc:TaxExclusiveAmount currencyID="EUR">308.75</cbc:TaxExclusiveAmount>
+<cbc:TaxInclusiveAmount currencyID="EUR">373.59</cbc:TaxInclusiveAmount>
+<cbc:AllowanceTotalAmount currencyID="EUR">0</cbc:AllowanceTotalAmount>
+<cbc:ChargeTotalAmount currencyID="EUR">0</cbc:ChargeTotalAmount>
+<cbc:PrepaidAmount currencyID="EUR">0</cbc:PrepaidAmount>
+<cbc:PayableAmount currencyID="EUR">373.59</cbc:PayableAmount>
+</cac:LegalMonetaryTotal>
+<cac:InvoiceLine>
+<cbc:ID>10</cbc:ID>
+<cbc:InvoicedQuantity unitCode="HUR">1</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">95</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[PRESTATIONS TECHNIQUES LUDOVIC PUCCI
+10/09/2026 - TICKET 01036278
+TR: DATAVERSE ET COPILOT IA    RESOLUTION
+DU PROBLEME D'APPLICATION QUI DISPARAISSE
+DU CLOUD]]></cbc:Description>
+<cbc:Name>IT-LPU</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>IT-LPU</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">95</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>15</cbc:ID>
+<cbc:InvoicedQuantity unitCode="HUR">0.25</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">23.75</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[PRESTATIONS TECHNIQUES LUDOVIC PUCCI
+17/09/2026 - TICKET 01038091
+[FIRING:1] AVD CONTROL PLANE ERRORS [HIGH]
+AVD (ERROR_DISK_FULL
+DENIS.SIBILLE@AGILIS.IMMO HIGH
+ARCATECH#AGILIS-SUBSCRIPTION [BE])]]></cbc:Description>
+<cbc:Name>IT-LPU</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>IT-LPU</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">95</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>20</cbc:ID>
+<cbc:InvoicedQuantity unitCode="HUR">1</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">95</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[PRESTATIONS TECHNIQUES LUDOVIC PUCCI
+13/08/2026 - TICKET 01031086
+AIDE DENIS CONFIGURATION APPLICATION POUR
+LIE SHAREPOINT A L'IA <IHC>]]></cbc:Description>
+<cbc:Name>IT-LPU</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>IT-LPU</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">95</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>25</cbc:ID>
+<cbc:InvoicedQuantity unitCode="HUR">1</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">95</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[PRESTATIONS TECHNIQUES LUDOVIC PUCCI
+20/08/2026 - TICKET 01029881
+PROBLEME COPILOTE DATAVERSE.    APPEL AVEC
+DENIS POUR PROBLEME DROITS SUR LES TABLES
+DANS POWERAPPS POUR IA <IHC>]]></cbc:Description>
+<cbc:Name>IT-LPU</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>IT-LPU</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">95</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+</Invoice>

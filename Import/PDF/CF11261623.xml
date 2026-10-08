@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Invoice xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+  xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+  xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2">
+<cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</cbc:CustomizationID>
+<cbc:ProfileID>urn:fdc:peppol.eu:2017:poacc:billing:01:1.0</cbc:ProfileID>
+<cbc:ID>11261623</cbc:ID>
+<cbc:IssueDate>2026-09-30</cbc:IssueDate>
+<cbc:DueDate>2026-09-30</cbc:DueDate>
+<cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
+<cbc:Note>INVOICE</cbc:Note>
+<cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
+<cbc:BuyerReference>REFERENCE NON IDENTIFIEE</cbc:BuyerReference>
+<cac:AccountingSupplierParty>
+<cac:Party>
+<cbc:EndpointID schemeID="9925">BE0563404209</cbc:EndpointID>
+<cac:PartyName>
+<cbc:Name>RCARRE BELGIQUE SPRL</cbc:Name>
+</cac:PartyName>
+<cac:PostalAddress>
+<cbc:StreetName>RUE D ABHOOZ, 27</cbc:StreetName>
+<cbc:CityName>HERSTAL</cbc:CityName>
+<cbc:PostalZone>4040</cbc:PostalZone>
+<cac:Country>
+<cbc:IdentificationCode>BE</cbc:IdentificationCode>
+</cac:Country>
+</cac:PostalAddress>
+<cac:PartyTaxScheme>
+<cbc:CompanyID>BE0563404209</cbc:CompanyID>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:PartyTaxScheme>
+<cac:PartyLegalEntity>
+<cbc:RegistrationName>RCARRE BELGIQUE SPRL</cbc:RegistrationName>
+</cac:PartyLegalEntity>
+<cac:Contact>
+<cbc:Name>ROCHE JEAN-GUY</cbc:Name>
+<cbc:Telephone>+32 4 268 09 41</cbc:Telephone>
+<cbc:ElectronicMail>CONTACT@RCARRE.COM</cbc:ElectronicMail>
+</cac:Contact>
+</cac:Party>
+</cac:AccountingSupplierParty>
+<cac:AccountingCustomerParty>
+<cac:Party>
+<cbc:EndpointID schemeID="9925">BE0740870459</cbc:EndpointID>
+<cac:PartyName>
+<cbc:Name>MEDI-COMPTA SRL</cbc:Name>
+</cac:PartyName>
+<cac:PostalAddress>
+<cbc:StreetName>RUE JEAN-KOCH 9</cbc:StreetName>
+<cbc:CityName>LAMBERMONT</cbc:CityName>
+<cbc:PostalZone>4800</cbc:PostalZone>
+<cac:Country>
+<cbc:IdentificationCode>BE</cbc:IdentificationCode>
+</cac:Country>
+</cac:PostalAddress>
+<cac:PartyTaxScheme>
+<cbc:CompanyID>BE0740870459</cbc:CompanyID>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:PartyTaxScheme>
+<cac:PartyLegalEntity>
+<cbc:RegistrationName>MEDI-COMPTA SRL</cbc:RegistrationName>
+</cac:PartyLegalEntity>
+</cac:Party>
+</cac:AccountingCustomerParty>
+<cac:PaymentMeans>
+<cbc:PaymentMeansCode>30</cbc:PaymentMeansCode>
+<cbc:PaymentID>410001093 / 11261623</cbc:PaymentID>
+<cac:PayeeFinancialAccount>
+<cbc:ID>BE49001738188971</cbc:ID>
+<cac:FinancialInstitutionBranch>
+<cbc:ID>GEBABEBB</cbc:ID>
+</cac:FinancialInstitutionBranch>
+</cac:PayeeFinancialAccount>
+</cac:PaymentMeans>
+<cac:TaxTotal>
+<cbc:TaxAmount currencyID="EUR">19.95</cbc:TaxAmount>
+<cac:TaxSubtotal>
+<cbc:TaxableAmount currencyID="EUR">95</cbc:TaxableAmount>
+<cbc:TaxAmount currencyID="EUR">19.95</cbc:TaxAmount>
+<cac:TaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:TaxCategory>
+</cac:TaxSubtotal>
+</cac:TaxTotal>
+<cac:LegalMonetaryTotal>
+<cbc:LineExtensionAmount currencyID="EUR">95</cbc:LineExtensionAmount>
+<cbc:TaxExclusiveAmount currencyID="EUR">95</cbc:TaxExclusiveAmount>
+<cbc:TaxInclusiveAmount currencyID="EUR">114.95</cbc:TaxInclusiveAmount>
+<cbc:AllowanceTotalAmount currencyID="EUR">0</cbc:AllowanceTotalAmount>
+<cbc:ChargeTotalAmount currencyID="EUR">0</cbc:ChargeTotalAmount>
+<cbc:PrepaidAmount currencyID="EUR">0</cbc:PrepaidAmount>
+<cbc:PayableAmount currencyID="EUR">114.95</cbc:PayableAmount>
+</cac:LegalMonetaryTotal>
+<cac:InvoiceLine>
+<cbc:ID>10</cbc:ID>
+<cbc:InvoicedQuantity unitCode="HUR">0.5</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">47.5</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[PRESTATIONS TECHNIQUES RYAN MATHIAS
+18/09/2026 - TICKET 01038458
+DEMANDE DE FLORINE ROUXHET   POUR PROBLEME
+AVEC BOITE EMAIL PAS A JOUR  FAIT MISE A
+JOUR DE LA SUITE OFFICE \ NOUVEAU PROFIL \
+TEST OK]]></cbc:Description>
+<cbc:Name>IT-RMA</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>IT-RMA</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">95</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>15</cbc:ID>
+<cbc:InvoicedQuantity unitCode="HUR">0.25</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">23.75</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[PRESTATIONS TECHNIQUES FABRICE SIMON
+02/09/2026 - TICKET 01033481
+MEDICOMPTA <IHC>]]></cbc:Description>
+<cbc:Name>IT-FSI</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>IT-FSI</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">95</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>20</cbc:ID>
+<cbc:InvoicedQuantity unitCode="HUR">0.25</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">23.75</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[PRESTATIONS TECHNIQUES GWENAEL DUHOUX
+17/09/2026 - TICKET 01038104
+ALERTE MONITORING    ESPACE DISQUE   1.64
+LIBRE   25GO APRES INTERVENTION <IHC>]]></cbc:Description>
+<cbc:Name>IT-GDU</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>IT-GDU</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">95</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+</Invoice>

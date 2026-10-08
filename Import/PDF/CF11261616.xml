@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Invoice xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+  xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+  xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2">
+<cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</cbc:CustomizationID>
+<cbc:ProfileID>urn:fdc:peppol.eu:2017:poacc:billing:01:1.0</cbc:ProfileID>
+<cbc:ID>11261616</cbc:ID>
+<cbc:IssueDate>2026-09-30</cbc:IssueDate>
+<cbc:DueDate>2026-09-30</cbc:DueDate>
+<cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
+<cbc:Note>INVOICE</cbc:Note>
+<cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
+<cbc:BuyerReference>REFERENCE NON IDENTIFIEE</cbc:BuyerReference>
+<cac:AccountingSupplierParty>
+<cac:Party>
+<cbc:EndpointID schemeID="9925">BE0563404209</cbc:EndpointID>
+<cac:PartyName>
+<cbc:Name>RCARRE BELGIQUE SPRL</cbc:Name>
+</cac:PartyName>
+<cac:PostalAddress>
+<cbc:StreetName>RUE D ABHOOZ, 27</cbc:StreetName>
+<cbc:CityName>HERSTAL</cbc:CityName>
+<cbc:PostalZone>4040</cbc:PostalZone>
+<cac:Country>
+<cbc:IdentificationCode>BE</cbc:IdentificationCode>
+</cac:Country>
+</cac:PostalAddress>
+<cac:PartyTaxScheme>
+<cbc:CompanyID>BE0563404209</cbc:CompanyID>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:PartyTaxScheme>
+<cac:PartyLegalEntity>
+<cbc:RegistrationName>RCARRE BELGIQUE SPRL</cbc:RegistrationName>
+</cac:PartyLegalEntity>
+<cac:Contact>
+<cbc:Name>ROCHE JEAN-GUY</cbc:Name>
+<cbc:Telephone>+32 4 268 09 41</cbc:Telephone>
+<cbc:ElectronicMail>CONTACT@RCARRE.COM</cbc:ElectronicMail>
+</cac:Contact>
+</cac:Party>
+</cac:AccountingSupplierParty>
+<cac:AccountingCustomerParty>
+<cac:Party>
+<cbc:EndpointID schemeID="9925">BE0465726791</cbc:EndpointID>
+<cac:PartyName>
+<cbc:Name>SYNAPHARM INDUSTRIAL</cbc:Name>
+</cac:PartyName>
+<cac:PostalAddress>
+<cbc:StreetName>SYNTHESIS SA</cbc:StreetName>
+<cbc:AdditionalStreetName>RUE DE L'AEROPORT, 52</cbc:AdditionalStreetName>
+<cbc:CityName>GRACE-HOLLOGNE</cbc:CityName>
+<cbc:PostalZone>4460</cbc:PostalZone>
+<cac:Country>
+<cbc:IdentificationCode>BE</cbc:IdentificationCode>
+</cac:Country>
+</cac:PostalAddress>
+<cac:PartyTaxScheme>
+<cbc:CompanyID>BE0465726791</cbc:CompanyID>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:PartyTaxScheme>
+<cac:PartyLegalEntity>
+<cbc:RegistrationName>SYNAPHARM INDUSTRIAL</cbc:RegistrationName>
+</cac:PartyLegalEntity>
+</cac:Party>
+</cac:AccountingCustomerParty>
+<cac:PaymentMeans>
+<cbc:PaymentMeansCode>30</cbc:PaymentMeansCode>
+<cbc:PaymentID>410000928 / 11261616</cbc:PaymentID>
+<cac:PayeeFinancialAccount>
+<cbc:ID>BE49001738188971</cbc:ID>
+<cac:FinancialInstitutionBranch>
+<cbc:ID>GEBABEBB</cbc:ID>
+</cac:FinancialInstitutionBranch>
+</cac:PayeeFinancialAccount>
+</cac:PaymentMeans>
+<cac:TaxTotal>
+<cbc:TaxAmount currencyID="EUR">64.84</cbc:TaxAmount>
+<cac:TaxSubtotal>
+<cbc:TaxableAmount currencyID="EUR">308.75</cbc:TaxableAmount>
+<cbc:TaxAmount currencyID="EUR">64.84</cbc:TaxAmount>
+<cac:TaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:TaxCategory>
+</cac:TaxSubtotal>
+</cac:TaxTotal>
+<cac:LegalMonetaryTotal>
+<cbc:LineExtensionAmount currencyID="EUR">308.75</cbc:LineExtensionAmount>
+<cbc:TaxExclusiveAmount currencyID="EUR">308.75</cbc:TaxExclusiveAmount>
+<cbc:TaxInclusiveAmount currencyID="EUR">373.59</cbc:TaxInclusiveAmount>
+<cbc:AllowanceTotalAmount currencyID="EUR">0</cbc:AllowanceTotalAmount>
+<cbc:ChargeTotalAmount currencyID="EUR">0</cbc:ChargeTotalAmount>
+<cbc:PrepaidAmount currencyID="EUR">0</cbc:PrepaidAmount>
+<cbc:PayableAmount currencyID="EUR">373.59</cbc:PayableAmount>
+</cac:LegalMonetaryTotal>
+<cac:InvoiceLine>
+<cbc:ID>10</cbc:ID>
+<cbc:InvoicedQuantity unitCode="HUR">0.25</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">23.75</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[PRESTATIONS TECHNIQUES GWENAEL DUHOUX
+28/09/2026 - TICKET 01038216
+INSTALLATION A DISTANCE DU NOUVEAU PC
+POUR SAMUEL :   FINIR INSTALLATION PC A
+DISTANCE   CONNEXION OFFICE  CONNEXION
+WINDOWS APP   INSTALLATION IMPRIMANTE]]></cbc:Description>
+<cbc:Name>IT-GDU</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>IT-GDU</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">95</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>15</cbc:ID>
+<cbc:InvoicedQuantity unitCode="HUR">0.25</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">23.75</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[PRESTATIONS TECHNIQUES GWENAEL DUHOUX
+24/08/2026 - TICKET 01030523
+SAMUEL PROBLEME POUR SE CONNECTER SUR LE
+SERVEUR - ECRAN NOIR    SESSION CLOUD
+INACCESSIBLE    VERIFICATION VIA
+TEAMVIEWER  CONNEXION SUR L'AVD
+DECONNEXION DE LA SESSION   RECONNEXION
+<IHC>]]></cbc:Description>
+<cbc:Name>IT-GDU</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>IT-GDU</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">95</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>20</cbc:ID>
+<cbc:InvoicedQuantity unitCode="HUR">0.5</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">47.5</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[PRESTATIONS TECHNIQUES GWENAEL DUHOUX
+27/08/2026 - TICKET 01031764
+BEATRICE MOULIN / INSTALLATION D'UNE
+IMPRIMANTE + DIVERS    INSTALLATION DE
+L'IMPRIMANTE EN LOCAL   VERIFICATIONS DES
+PARAMETRES TEAMS   CONNEXION TEAMS EN
+LOCAL   TEST MICRO + CAMERA   AJOUT FOND
+ECRAN CAMERA <IHC>]]></cbc:Description>
+<cbc:Name>IT-GDU</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>IT-GDU</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">95</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>25</cbc:ID>
+<cbc:InvoicedQuantity unitCode="HUR">0.25</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">23.75</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[PRESTATIONS TECHNIQUES BRICE MELIN
+02/09/2026 - TICKET 01033477
+SYNAPHARM.    NETTOYAGE DISQUE EFFECTUE
+RECUPERE + DE 10% (1/29GB LIBRE AVANT
+4,3GB LIBRE APRES) <IHC>]]></cbc:Description>
+<cbc:Name>IT-BME</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>IT-BME</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">95</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>30</cbc:ID>
+<cbc:InvoicedQuantity unitCode="HUR">0.5</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">47.5</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[PRESTATIONS TECHNIQUES GWENAEL DUHOUX
+14/09/2026 - TICKET 01036922
+TR: MIGRATION OAUTH > MSGRAPH    MIGRATION
+DE OAUTH VERS MICROSOFT GRAPH SUR LA
+CONSOLE 365   GENERATION VALUE + SECRET ID
+<IHC>]]></cbc:Description>
+<cbc:Name>IT-GDU</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>IT-GDU</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">95</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>35</cbc:ID>
+<cbc:InvoicedQuantity unitCode="HUR">1.5</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">142.5</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[PRESTATIONS TECHNIQUES GWENAEL DUHOUX
+14/09/2026 - TICKET 01037065
+SETUP PC LENOVO    SETUP DU PC LENOVO
+PF68NW40 <IHC>]]></cbc:Description>
+<cbc:Name>IT-GDU</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>IT-GDU</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">95</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+</Invoice>

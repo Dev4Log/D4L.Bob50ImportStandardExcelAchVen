@@ -1,0 +1,1232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Invoice xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+  xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+  xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2">
+<cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</cbc:CustomizationID>
+<cbc:ProfileID>urn:fdc:peppol.eu:2017:poacc:billing:01:1.0</cbc:ProfileID>
+<cbc:ID>13262289</cbc:ID>
+<cbc:IssueDate>2026-10-01</cbc:IssueDate>
+<cbc:DueDate>2026-10-01</cbc:DueDate>
+<cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
+<cbc:Note>INVOICE</cbc:Note>
+<cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
+<cbc:BuyerReference>REFERENCE NON IDENTIFIEE</cbc:BuyerReference>
+<cac:AccountingSupplierParty>
+<cac:Party>
+<cbc:EndpointID schemeID="9925">BE0563404209</cbc:EndpointID>
+<cac:PartyName>
+<cbc:Name>RCARRE BELGIQUE SPRL</cbc:Name>
+</cac:PartyName>
+<cac:PostalAddress>
+<cbc:StreetName>RUE D ABHOOZ, 27</cbc:StreetName>
+<cbc:CityName>HERSTAL</cbc:CityName>
+<cbc:PostalZone>4040</cbc:PostalZone>
+<cac:Country>
+<cbc:IdentificationCode>BE</cbc:IdentificationCode>
+</cac:Country>
+</cac:PostalAddress>
+<cac:PartyTaxScheme>
+<cbc:CompanyID>BE0563404209</cbc:CompanyID>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:PartyTaxScheme>
+<cac:PartyLegalEntity>
+<cbc:RegistrationName>RCARRE BELGIQUE SPRL</cbc:RegistrationName>
+</cac:PartyLegalEntity>
+<cac:Contact>
+<cbc:Name>ROCHE JEAN-GUY</cbc:Name>
+<cbc:Telephone>+32 4 268 09 41</cbc:Telephone>
+<cbc:ElectronicMail>CONTACT@RCARRE.COM</cbc:ElectronicMail>
+</cac:Contact>
+</cac:Party>
+</cac:AccountingSupplierParty>
+<cac:AccountingCustomerParty>
+<cac:Party>
+<cbc:EndpointID schemeID="9925">BE0880820673</cbc:EndpointID>
+<cac:PartyName>
+<cbc:Name>SIGEDIS ASBL</cbc:Name>
+</cac:PartyName>
+<cac:PostalAddress>
+<cbc:StreetName>PLACE VICTOR HORTA 11</cbc:StreetName>
+<cbc:CityName>SAINT-GILLES</cbc:CityName>
+<cbc:PostalZone>1060</cbc:PostalZone>
+<cac:Country>
+<cbc:IdentificationCode>BE</cbc:IdentificationCode>
+</cac:Country>
+</cac:PostalAddress>
+<cac:PartyTaxScheme>
+<cbc:CompanyID>BE0880820673</cbc:CompanyID>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:PartyTaxScheme>
+<cac:PartyLegalEntity>
+<cbc:RegistrationName>SIGEDIS ASBL</cbc:RegistrationName>
+</cac:PartyLegalEntity>
+</cac:Party>
+</cac:AccountingCustomerParty>
+<cac:PaymentMeans>
+<cbc:PaymentMeansCode>30</cbc:PaymentMeansCode>
+<cbc:PaymentID>410001138 / 13262289</cbc:PaymentID>
+<cac:PayeeFinancialAccount>
+<cbc:ID>BE49001738188971</cbc:ID>
+<cac:FinancialInstitutionBranch>
+<cbc:ID>GEBABEBB</cbc:ID>
+</cac:FinancialInstitutionBranch>
+</cac:PayeeFinancialAccount>
+</cac:PaymentMeans>
+<cac:TaxTotal>
+<cbc:TaxAmount currencyID="EUR">121.27</cbc:TaxAmount>
+<cac:TaxSubtotal>
+<cbc:TaxableAmount currencyID="EUR">577.47</cbc:TaxableAmount>
+<cbc:TaxAmount currencyID="EUR">121.27</cbc:TaxAmount>
+<cac:TaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:TaxCategory>
+</cac:TaxSubtotal>
+</cac:TaxTotal>
+<cac:LegalMonetaryTotal>
+<cbc:LineExtensionAmount currencyID="EUR">577.47</cbc:LineExtensionAmount>
+<cbc:TaxExclusiveAmount currencyID="EUR">577.47</cbc:TaxExclusiveAmount>
+<cbc:TaxInclusiveAmount currencyID="EUR">698.74</cbc:TaxInclusiveAmount>
+<cbc:AllowanceTotalAmount currencyID="EUR">0</cbc:AllowanceTotalAmount>
+<cbc:ChargeTotalAmount currencyID="EUR">0</cbc:ChargeTotalAmount>
+<cbc:PrepaidAmount currencyID="EUR">0</cbc:PrepaidAmount>
+<cbc:PayableAmount currencyID="EUR">698.74</cbc:PayableAmount>
+</cac:LegalMonetaryTotal>
+<cac:InvoiceLine>
+<cbc:ID>10</cbc:ID>
+<cbc:InvoicedQuantity unitCode="HUR">1</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">61</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[CONTRAT R2B-CLOUD-6363 / CONTRACT - CLOUD
+- RCARRE - RCLOUD SAAS - FILES SERVICES -
+RDS - CITRIX - MONTHLY COST PER USER
+PERIODE DU 2026-10-01 AU 2026-10-31 (1.
+P/MOIS)]]></cbc:Description>
+<cbc:Name>T012166</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>T012166</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">61</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>15</cbc:ID>
+<cbc:InvoicedQuantity unitCode="XPP">0</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">0</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[RCLOUD SERVICES - SERVICE DE FICHIERS ET
+DE MESSAGERIE MUTUALISES INCLUANT :]]></cbc:Description>
+<cbc:Name>.TICAL</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>.TICAL</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">0</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>20</cbc:ID>
+<cbc:InvoicedQuantity unitCode="XPP">0</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">0</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[- SERVICE ACTIVE DIRECTORY]]></cbc:Description>
+<cbc:Name>.TICAL</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>.TICAL</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">0</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>25</cbc:ID>
+<cbc:InvoicedQuantity unitCode="XPP">0</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">0</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[- 1 ESPACE DE STOCKAGE DE 25GB DEDIES AUX
+FICHIERS DE TRAVAIL]]></cbc:Description>
+<cbc:Name>.TICAL</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>.TICAL</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">0</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>30</cbc:ID>
+<cbc:InvoicedQuantity unitCode="XPP">0</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">0</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[- 1 SERVICE DE BACKUP R-STORE]]></cbc:Description>
+<cbc:Name>.TICAL</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>.TICAL</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">0</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>35</cbc:ID>
+<cbc:InvoicedQuantity unitCode="XPP">0</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">0</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[- 1 SERVICE ANTIVIRUS]]></cbc:Description>
+<cbc:Name>.TICAL</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>.TICAL</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">0</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>40</cbc:ID>
+<cbc:InvoicedQuantity unitCode="XPP">0</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">0</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[- 1 SERVICE ANTISPAM]]></cbc:Description>
+<cbc:Name>.TICAL</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>.TICAL</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">0</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>45</cbc:ID>
+<cbc:InvoicedQuantity unitCode="XPP">0</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">0</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[- 1 SERVICE DE DRP (DISASTER RECOVERY)]]></cbc:Description>
+<cbc:Name>.TICAL</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>.TICAL</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">0</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>50</cbc:ID>
+<cbc:InvoicedQuantity unitCode="XPP">1</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">17.5</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[CONTRAT R2B-CLOUD-6363 / SOFTWARE -
+LICENCES CLOUD - CITRIX - VIRTUAL APPS AND
+DESKTOPS PREMIUM PERIODE DU 2026-10-01 AU
+2026-10-31 (1. P/MOIS)]]></cbc:Description>
+<cbc:Name>T001711</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>T001711</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">17.5</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>55</cbc:ID>
+<cbc:InvoicedQuantity unitCode="HUR">1</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">145.3</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[CONTRAT R2B-CLOUD-6363 / CONTRACT - CLOUD
+- RCLOUD - BUSINESS APP - HORUS PERIODE DU
+2026-10-01 AU 2026-10-31 (1. P/MOIS)]]></cbc:Description>
+<cbc:Name>PAAS-CLOUD-MU</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>PAAS-CLOUD-MU</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">145.3</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>60</cbc:ID>
+<cbc:InvoicedQuantity unitCode="XPP">0</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">0</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[MISE A DISPOSITION D'UNE MACHINE VIRTUELLE
+PROTEGEE, MONITOREE ET DEDIEE AUX SERVICES
+SUIVANTS :]]></cbc:Description>
+<cbc:Name>.TICAL</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>.TICAL</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">0</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>65</cbc:ID>
+<cbc:InvoicedQuantity unitCode="XPP">0</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">0</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[- EX : ACTIVE DIRECTORY]]></cbc:Description>
+<cbc:Name>.TICAL</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>.TICAL</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">0</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>70</cbc:ID>
+<cbc:InvoicedQuantity unitCode="XPP">0</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">0</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[- RESSOURCES MAXIMUM MISES EN OEUVRE : 2X
+VCPU - 8GB DE RAM]]></cbc:Description>
+<cbc:Name>.TICAL</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>.TICAL</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">0</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>75</cbc:ID>
+<cbc:InvoicedQuantity unitCode="XPP">0</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">0</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[- ESPACE DE STOCKAGE OS : 60 GB]]></cbc:Description>
+<cbc:Name>.TICAL</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>.TICAL</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">0</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>80</cbc:ID>
+<cbc:InvoicedQuantity unitCode="XPP">0</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">0</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[- ESPACE DE STOCKAGE DATA: 80 GO]]></cbc:Description>
+<cbc:Name>.TICAL</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>.TICAL</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">0</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>85</cbc:ID>
+<cbc:InvoicedQuantity unitCode="XPP">0</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">0</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[- MICROSOFT WINDOWS SERVER STANDARD -
+LICENCE SPLA]]></cbc:Description>
+<cbc:Name>.TICAL</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>.TICAL</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">0</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>90</cbc:ID>
+<cbc:InvoicedQuantity unitCode="XPP">0</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">0</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[- LICENCE RCLOUD ANTIVIRUS SERVEUR]]></cbc:Description>
+<cbc:Name>.TICAL</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>.TICAL</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">0</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>95</cbc:ID>
+<cbc:InvoicedQuantity unitCode="XPP">0</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">0</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[- SERVICE DE SAUVEGARDE ET SERVICE DE
+DISASTER RECOVERY RCLOUD]]></cbc:Description>
+<cbc:Name>.TICAL</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>.TICAL</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">0</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>100</cbc:ID>
+<cbc:InvoicedQuantity unitCode="XPP">0</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">0</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[.]]></cbc:Description>
+<cbc:Name>.TICAL</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>.TICAL</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">0</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>105</cbc:ID>
+<cbc:InvoicedQuantity unitCode="HUR">1</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">9.75</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[CONTRAT R2B-CLOUD-6363 / CONTRACT - CLOUD
+- RCLOUD - SCAN2FILE SERVICE PERIODE DU
+2026-10-01 AU 2026-10-31 (1. P/MOIS)]]></cbc:Description>
+<cbc:Name>T007257</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>T007257</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">9.75</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>110</cbc:ID>
+<cbc:InvoicedQuantity unitCode="HUR">1</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">166.9</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[CONTRAT R2B-CLOUD-6363 / CONTRACT - CLOUD
+- RCLOUD - VM DMZ FALCO PERIODE DU
+2026-10-01 AU 2026-10-31 (1. P/MOIS)]]></cbc:Description>
+<cbc:Name>PAAS-CLOUD-MU</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>PAAS-CLOUD-MU</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">166.9</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>115</cbc:ID>
+<cbc:InvoicedQuantity unitCode="XPP">0</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">0</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[MISE A DISPOSITION D'UNE MACHINE VIRTUELLE
+PROTEGEE, MONITOREE ET DEDIEE AUX SERVICES
+SUIVANTS :]]></cbc:Description>
+<cbc:Name>.TICAL</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>.TICAL</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">0</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>120</cbc:ID>
+<cbc:InvoicedQuantity unitCode="XPP">0</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">0</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[- EX : SERVICES DE MESSAGERIE OU SERVICE
+REMOTE DESKTOP SERVICES]]></cbc:Description>
+<cbc:Name>.TICAL</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>.TICAL</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">0</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>125</cbc:ID>
+<cbc:InvoicedQuantity unitCode="XPP">0</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">0</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[- RESSOURCES MAXIMUM MISES EN OEUVRE : 4X
+VCPU - 8GB DE RAM]]></cbc:Description>
+<cbc:Name>.TICAL</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>.TICAL</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">0</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>130</cbc:ID>
+<cbc:InvoicedQuantity unitCode="XPP">0</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">0</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[- ESPACE DE STOCKAGE OS : 60 GB]]></cbc:Description>
+<cbc:Name>.TICAL</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>.TICAL</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">0</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>135</cbc:ID>
+<cbc:InvoicedQuantity unitCode="XPP">0</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">0</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[- ESPACE DE STOCKAGE BRUT:60 GB]]></cbc:Description>
+<cbc:Name>.TICAL</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>.TICAL</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">0</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>140</cbc:ID>
+<cbc:InvoicedQuantity unitCode="XPP">0</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">0</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[- MICROSOFT WINDOWS SERVER STANDARD -
+LICENCE SPLA]]></cbc:Description>
+<cbc:Name>.TICAL</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>.TICAL</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">0</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>145</cbc:ID>
+<cbc:InvoicedQuantity unitCode="XPP">0</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">0</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[- LICENCE RCLOUD ANTIVIRUS SERVEUR]]></cbc:Description>
+<cbc:Name>.TICAL</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>.TICAL</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">0</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>150</cbc:ID>
+<cbc:InvoicedQuantity unitCode="XPP">0</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">0</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[- SERVICE DE SAUVEGARDE ET SERVICE DE
+DISASTER RECOVERY RCLOUD]]></cbc:Description>
+<cbc:Name>.TICAL</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>.TICAL</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">0</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>155</cbc:ID>
+<cbc:InvoicedQuantity unitCode="XPP">0</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">0</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[.]]></cbc:Description>
+<cbc:Name>.TICAL</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>.TICAL</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">0</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>160</cbc:ID>
+<cbc:InvoicedQuantity unitCode="HUR">1</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">15</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[CONTRAT R2B-CLOUD-6363 / CONTRACT -
+LOCATION TELCO - R-FIBER - IP FIXE PERIODE
+DU 2026-10-01 AU 2026-10-31 (1. P/MOIS)]]></cbc:Description>
+<cbc:Name>T002989</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>T002989</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">15</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>165</cbc:ID>
+<cbc:InvoicedQuantity unitCode="XPP">0</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">0</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[MISE A DISPOSITION D'UNE IP FIXE]]></cbc:Description>
+<cbc:Name>.TICAL</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>.TICAL</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">0</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>170</cbc:ID>
+<cbc:InvoicedQuantity unitCode="XPP">0</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">0</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[REDEVANCE MENSUELLE]]></cbc:Description>
+<cbc:Name>.TICAL</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>.TICAL</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">0</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>175</cbc:ID>
+<cbc:InvoicedQuantity unitCode="XPP">1</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">8.95</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[CONTRAT R2B-CLOUD-6363 / SOFTWARE -
+LICENCES CLOUD - MICROSOFT - WINDOWS
+REMOTE DESKTOP SERVICES - LICENCE SPLA
+PERIODE DU 2026-10-01 AU 2026-10-31 (1.
+P/MOIS)]]></cbc:Description>
+<cbc:Name>T000899</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>T000899</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">8.95</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>180</cbc:ID>
+<cbc:InvoicedQuantity unitCode="XPP">1</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">2</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[CONTRAT R2B-CLOUD-6363 / SOFTWARE -
+LICENCES CLOUD - PDF-X CHANGE EDITOR -
+PDF-XCHANGE EDITOR - PER USER - PER MONTH
+PERIODE DU 2026-10-01 AU 2026-10-31 (1.
+P/MOIS)]]></cbc:Description>
+<cbc:Name>T008308</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>T008308</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">2</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>185</cbc:ID>
+<cbc:InvoicedQuantity unitCode="XPP">3</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">23.07</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[CONTRAT R2B-CLOUD-6363 / ABONNEMENT -
+TOKEN - ACTIVE IDENTITY  -  TOKEN OR
+SOFTPHONE ONE TIME PASSWORD PERIODE DU
+2026-10-01 AU 2026-10-31 (3. P/MOIS)]]></cbc:Description>
+<cbc:Name>T012202</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>T012202</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">7.69</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>190</cbc:ID>
+<cbc:InvoicedQuantity unitCode="XPP">0</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">0</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[MARC.BOSSICARD , DANNY.DHONT ,
+STEVEN.JANSSEN]]></cbc:Description>
+<cbc:Name>.TICAL</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>.TICAL</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">0</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>195</cbc:ID>
+<cbc:InvoicedQuantity unitCode="HUR">1</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">128</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[CONTRAT R2B-CLOUD-6363 / CONTRACT - CLOUD
+- RCLOUD - REPORTING SERVICES PERIODE DU
+2026-10-01 AU 2026-10-31 (1. P/MOIS)]]></cbc:Description>
+<cbc:Name>T001368</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>T001368</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">128</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>200</cbc:ID>
+<cbc:InvoicedQuantity unitCode="XPP">0</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">0</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[- SERVICE DE RAPPORT MENSUEL PRESENTANT
+L'ETAT DES SERVICES CLOUD MIS A
+DISPOSITION :]]></cbc:Description>
+<cbc:Name>.TICAL</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>.TICAL</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">0</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>205</cbc:ID>
+<cbc:InvoicedQuantity unitCode="XPP">0</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">0</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[DISPONIBILITE GLOBALE DES SERVEURS]]></cbc:Description>
+<cbc:Name>.TICAL</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>.TICAL</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">0</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>210</cbc:ID>
+<cbc:InvoicedQuantity unitCode="XPP">0</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">0</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[UTILISATION DES SERVEURS VIRTUELS]]></cbc:Description>
+<cbc:Name>.TICAL</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>.TICAL</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">0</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>215</cbc:ID>
+<cbc:InvoicedQuantity unitCode="XPP">0</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">0</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[UTILISATION DES RESSOURCES DISQUE /
+MEMOIRE]]></cbc:Description>
+<cbc:Name>.TICAL</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>.TICAL</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">0</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>220</cbc:ID>
+<cbc:InvoicedQuantity unitCode="XPP">0</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">0</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[- INFORMATIONS LOG-ON / LOG-OFF (SI
+APPLICABLE)]]></cbc:Description>
+<cbc:Name>.TICAL</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>.TICAL</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">0</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>225</cbc:ID>
+<cbc:InvoicedQuantity unitCode="XPP">0</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">0</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[- UTILISATION DES SERVICES DE MESSAGERIE
+(BOITES MAIL ACTIVES)]]></cbc:Description>
+<cbc:Name>.TICAL</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>.TICAL</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">0</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>230</cbc:ID>
+<cbc:InvoicedQuantity unitCode="XPP">0</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">0</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[- STATUT DES SAUVEGARDES]]></cbc:Description>
+<cbc:Name>.TICAL</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>.TICAL</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">0</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>235</cbc:ID>
+<cbc:InvoicedQuantity unitCode="XPP">0</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">0</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[- RAPPORT DES INCIDENTS (TICKETING) ET DES
+CHANGEMENTS OPERES AU SEIN DES SYSTEMES AU
+COURS DE LA PERIODE]]></cbc:Description>
+<cbc:Name>.TICAL</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>.TICAL</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">0</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>240</cbc:ID>
+<cbc:InvoicedQuantity unitCode="XPP">0</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">0</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[- LISTE DES UTILISATEURS (BIENTOT
+DISPONIBLE)]]></cbc:Description>
+<cbc:Name>.TICAL</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>.TICAL</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">0</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>245</cbc:ID>
+<cbc:InvoicedQuantity unitCode="XPP">0</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">0</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[- MANAGEMENT ET RAPPORT DES TENTATIVES
+D'INTRUSION]]></cbc:Description>
+<cbc:Name>.TICAL</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>.TICAL</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">0</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>250</cbc:ID>
+<cbc:InvoicedQuantity unitCode="XPP">0</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">0</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[REDEVANCE MENSUELLE - CONVIENT POUR
+ENVIRONNEMENT DE 10 UTILISATEURS OU PLUS]]></cbc:Description>
+<cbc:Name>.TICAL</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>.TICAL</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">0</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+</Invoice>

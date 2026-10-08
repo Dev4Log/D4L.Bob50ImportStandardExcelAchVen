@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Invoice xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+  xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+  xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2">
+<cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</cbc:CustomizationID>
+<cbc:ProfileID>urn:fdc:peppol.eu:2017:poacc:billing:01:1.0</cbc:ProfileID>
+<cbc:ID>11261619</cbc:ID>
+<cbc:IssueDate>2026-09-30</cbc:IssueDate>
+<cbc:DueDate>2026-09-30</cbc:DueDate>
+<cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
+<cbc:Note>INVOICE</cbc:Note>
+<cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
+<cbc:BuyerReference>REFERENCE NON IDENTIFIEE</cbc:BuyerReference>
+<cac:AccountingSupplierParty>
+<cac:Party>
+<cbc:EndpointID schemeID="9925">BE0563404209</cbc:EndpointID>
+<cac:PartyName>
+<cbc:Name>RCARRE BELGIQUE SPRL</cbc:Name>
+</cac:PartyName>
+<cac:PostalAddress>
+<cbc:StreetName>RUE D ABHOOZ, 27</cbc:StreetName>
+<cbc:CityName>HERSTAL</cbc:CityName>
+<cbc:PostalZone>4040</cbc:PostalZone>
+<cac:Country>
+<cbc:IdentificationCode>BE</cbc:IdentificationCode>
+</cac:Country>
+</cac:PostalAddress>
+<cac:PartyTaxScheme>
+<cbc:CompanyID>BE0563404209</cbc:CompanyID>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:PartyTaxScheme>
+<cac:PartyLegalEntity>
+<cbc:RegistrationName>RCARRE BELGIQUE SPRL</cbc:RegistrationName>
+</cac:PartyLegalEntity>
+<cac:Contact>
+<cbc:Name>ROCHE JEAN-GUY</cbc:Name>
+<cbc:Telephone>+32 4 268 09 41</cbc:Telephone>
+<cbc:ElectronicMail>CONTACT@RCARRE.COM</cbc:ElectronicMail>
+</cac:Contact>
+</cac:Party>
+</cac:AccountingSupplierParty>
+<cac:AccountingCustomerParty>
+<cac:Party>
+<cbc:EndpointID schemeID="9925">BE0446471402</cbc:EndpointID>
+<cac:PartyName>
+<cbc:Name>FIDUCIAIRE RENSON ET</cbc:Name>
+</cac:PartyName>
+<cac:PostalAddress>
+<cbc:StreetName>ASSO SA</cbc:StreetName>
+<cbc:AdditionalStreetName>RUE HAMENTE 14</cbc:AdditionalStreetName>
+<cbc:CityName>VERLAINE</cbc:CityName>
+<cbc:PostalZone>4537</cbc:PostalZone>
+<cac:Country>
+<cbc:IdentificationCode>BE</cbc:IdentificationCode>
+</cac:Country>
+</cac:PostalAddress>
+<cac:PartyTaxScheme>
+<cbc:CompanyID>BE0446471402</cbc:CompanyID>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:PartyTaxScheme>
+<cac:PartyLegalEntity>
+<cbc:RegistrationName>FIDUCIAIRE RENSON ET</cbc:RegistrationName>
+</cac:PartyLegalEntity>
+</cac:Party>
+</cac:AccountingCustomerParty>
+<cac:PaymentMeans>
+<cbc:PaymentMeansCode>30</cbc:PaymentMeansCode>
+<cbc:PaymentID>410000981 / 11261619</cbc:PaymentID>
+<cac:PayeeFinancialAccount>
+<cbc:ID>BE49001738188971</cbc:ID>
+<cac:FinancialInstitutionBranch>
+<cbc:ID>GEBABEBB</cbc:ID>
+</cac:FinancialInstitutionBranch>
+</cac:PayeeFinancialAccount>
+</cac:PaymentMeans>
+<cac:TaxTotal>
+<cbc:TaxAmount currencyID="EUR">14.96</cbc:TaxAmount>
+<cac:TaxSubtotal>
+<cbc:TaxableAmount currencyID="EUR">71.25</cbc:TaxableAmount>
+<cbc:TaxAmount currencyID="EUR">14.96</cbc:TaxAmount>
+<cac:TaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:TaxCategory>
+</cac:TaxSubtotal>
+</cac:TaxTotal>
+<cac:LegalMonetaryTotal>
+<cbc:LineExtensionAmount currencyID="EUR">71.25</cbc:LineExtensionAmount>
+<cbc:TaxExclusiveAmount currencyID="EUR">71.25</cbc:TaxExclusiveAmount>
+<cbc:TaxInclusiveAmount currencyID="EUR">86.21</cbc:TaxInclusiveAmount>
+<cbc:AllowanceTotalAmount currencyID="EUR">0</cbc:AllowanceTotalAmount>
+<cbc:ChargeTotalAmount currencyID="EUR">0</cbc:ChargeTotalAmount>
+<cbc:PrepaidAmount currencyID="EUR">0</cbc:PrepaidAmount>
+<cbc:PayableAmount currencyID="EUR">86.21</cbc:PayableAmount>
+</cac:LegalMonetaryTotal>
+<cac:InvoiceLine>
+<cbc:ID>10</cbc:ID>
+<cbc:InvoicedQuantity unitCode="HUR">0.25</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">23.75</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[PRESTATIONS TECHNIQUES LUDOVIC PUCCI
+14/09/2026 - TICKET 01036817
+PC VERONIQUE DISQUE HS -> REMPLACE PAR PC
+DE STOCK]]></cbc:Description>
+<cbc:Name>IT-LPU</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>IT-LPU</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">95</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>15</cbc:ID>
+<cbc:InvoicedQuantity unitCode="HUR">0.25</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">23.75</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[PRESTATIONS TECHNIQUES LUDOVIC PUCCI
+14/09/2026 - TICKET 01036894
+TR: ORDI    VERONIQUE PROBLEME ACCES A
+DISTANCE    TOKEN BLOQUE DEBLOQUE]]></cbc:Description>
+<cbc:Name>IT-LPU</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>IT-LPU</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">95</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>20</cbc:ID>
+<cbc:InvoicedQuantity unitCode="HUR">0.25</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">23.75</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[PRESTATIONS TECHNIQUES LUDOVIC PUCCI
+16/09/2026 - TICKET 01037639
+FW: FID. RENSON / PIA    RE CONFIG TOKEN
+POUR ELS.VAN.VOSSEL@PIA.BE]]></cbc:Description>
+<cbc:Name>IT-LPU</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>IT-LPU</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">95</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+</Invoice>

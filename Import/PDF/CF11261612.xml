@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Invoice xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+  xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+  xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2">
+<cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</cbc:CustomizationID>
+<cbc:ProfileID>urn:fdc:peppol.eu:2017:poacc:billing:01:1.0</cbc:ProfileID>
+<cbc:ID>11261612</cbc:ID>
+<cbc:IssueDate>2026-09-30</cbc:IssueDate>
+<cbc:DueDate>2026-09-30</cbc:DueDate>
+<cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
+<cbc:Note>INVOICE</cbc:Note>
+<cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
+<cbc:BuyerReference>REFERENCE NON IDENTIFIEE</cbc:BuyerReference>
+<cac:AccountingSupplierParty>
+<cac:Party>
+<cbc:EndpointID schemeID="9925">BE0563404209</cbc:EndpointID>
+<cac:PartyName>
+<cbc:Name>RCARRE BELGIQUE SPRL</cbc:Name>
+</cac:PartyName>
+<cac:PostalAddress>
+<cbc:StreetName>RUE D ABHOOZ, 27</cbc:StreetName>
+<cbc:CityName>HERSTAL</cbc:CityName>
+<cbc:PostalZone>4040</cbc:PostalZone>
+<cac:Country>
+<cbc:IdentificationCode>BE</cbc:IdentificationCode>
+</cac:Country>
+</cac:PostalAddress>
+<cac:PartyTaxScheme>
+<cbc:CompanyID>BE0563404209</cbc:CompanyID>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:PartyTaxScheme>
+<cac:PartyLegalEntity>
+<cbc:RegistrationName>RCARRE BELGIQUE SPRL</cbc:RegistrationName>
+</cac:PartyLegalEntity>
+<cac:Contact>
+<cbc:Name>ROCHE JEAN-GUY</cbc:Name>
+<cbc:Telephone>+32 4 268 09 41</cbc:Telephone>
+<cbc:ElectronicMail>CONTACT@RCARRE.COM</cbc:ElectronicMail>
+</cac:Contact>
+</cac:Party>
+</cac:AccountingSupplierParty>
+<cac:AccountingCustomerParty>
+<cac:Party>
+<cbc:EndpointID schemeID="9925">BE0430058210</cbc:EndpointID>
+<cac:PartyName>
+<cbc:Name>BUZON PEDESTAL INTERN.</cbc:Name>
+</cac:PartyName>
+<cac:PostalAddress>
+<cbc:StreetName>4EME AVENUE 25</cbc:StreetName>
+<cbc:CityName>HERSTAL</cbc:CityName>
+<cbc:PostalZone>4040</cbc:PostalZone>
+<cac:Country>
+<cbc:IdentificationCode>BE</cbc:IdentificationCode>
+</cac:Country>
+</cac:PostalAddress>
+<cac:PartyTaxScheme>
+<cbc:CompanyID>BE0430058210</cbc:CompanyID>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:PartyTaxScheme>
+<cac:PartyLegalEntity>
+<cbc:RegistrationName>BUZON PEDESTAL INTERN.</cbc:RegistrationName>
+</cac:PartyLegalEntity>
+</cac:Party>
+</cac:AccountingCustomerParty>
+<cac:PaymentMeans>
+<cbc:PaymentMeansCode>30</cbc:PaymentMeansCode>
+<cbc:PaymentID>410000730 / 11261612</cbc:PaymentID>
+<cac:PayeeFinancialAccount>
+<cbc:ID>BE49001738188971</cbc:ID>
+<cac:FinancialInstitutionBranch>
+<cbc:ID>GEBABEBB</cbc:ID>
+</cac:FinancialInstitutionBranch>
+</cac:PayeeFinancialAccount>
+</cac:PaymentMeans>
+<cac:TaxTotal>
+<cbc:TaxAmount currencyID="EUR">94.76</cbc:TaxAmount>
+<cac:TaxSubtotal>
+<cbc:TaxableAmount currencyID="EUR">451.25</cbc:TaxableAmount>
+<cbc:TaxAmount currencyID="EUR">94.76</cbc:TaxAmount>
+<cac:TaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:TaxCategory>
+</cac:TaxSubtotal>
+</cac:TaxTotal>
+<cac:LegalMonetaryTotal>
+<cbc:LineExtensionAmount currencyID="EUR">451.25</cbc:LineExtensionAmount>
+<cbc:TaxExclusiveAmount currencyID="EUR">451.25</cbc:TaxExclusiveAmount>
+<cbc:TaxInclusiveAmount currencyID="EUR">546.01</cbc:TaxInclusiveAmount>
+<cbc:AllowanceTotalAmount currencyID="EUR">0</cbc:AllowanceTotalAmount>
+<cbc:ChargeTotalAmount currencyID="EUR">0</cbc:ChargeTotalAmount>
+<cbc:PrepaidAmount currencyID="EUR">0</cbc:PrepaidAmount>
+<cbc:PayableAmount currencyID="EUR">546.01</cbc:PayableAmount>
+</cac:LegalMonetaryTotal>
+<cac:InvoiceLine>
+<cbc:ID>10</cbc:ID>
+<cbc:InvoicedQuantity unitCode="HUR">0.75</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">71.25</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[PRESTATIONS TECHNIQUES FABRICE SIMON
+03/08/2026 - TICKET 01020467
+EXPIRATION DOMAINE    RENOUVELLEMENT,
+PROBLEME DE NUMERO FIXE, APPEL L'OPERATEUR
+ET TROUVER UNE SOLUTION DE BYPASS <IHC>]]></cbc:Description>
+<cbc:Name>IT-FSI</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>IT-FSI</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">95</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>15</cbc:ID>
+<cbc:InvoicedQuantity unitCode="HUR">1</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">95</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[PRESTATIONS TECHNIQUES MAXIME FONTAINE
+20/08/2026 - TICKET 01029848
+CORRECTION DES CONTACTS NOMS DE DOMAINE
+<IHC>]]></cbc:Description>
+<cbc:Name>IT-MFO</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>IT-MFO</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">95</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>20</cbc:ID>
+<cbc:InvoicedQuantity unitCode="HUR">0.25</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">23.75</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[PRESTATIONS TECHNIQUES GWENAEL DUHOUX
+25/08/2026 - TICKET 01030854
+TR: BUZON - RCARRE - TRANSFERT D'EMAILS
+ARRET DU FORWARDING DE EXPORT VERS LAURENT
+BUZON  RESET PASSWORD  MAIL POUR
+TECHNICO.AL <IHC>]]></cbc:Description>
+<cbc:Name>IT-GDU</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>IT-GDU</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">95</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>25</cbc:ID>
+<cbc:InvoicedQuantity unitCode="HUR">0.25</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">23.75</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[PRESTATIONS TECHNIQUES GWENAEL DUHOUX
+25/08/2026 - TICKET 01031005
+BUZON - RCARRE - REDIRECTION EMAIL ELIOTT
+VERS ARTHUR    REDIRECTION DES MAILS
+ELIOTT VERS ARTHUR   COPIE DES MAILS DANS
+LES DEUX BOITES <IHC>]]></cbc:Description>
+<cbc:Name>IT-GDU</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>IT-GDU</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">95</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>30</cbc:ID>
+<cbc:InvoicedQuantity unitCode="HUR">0.25</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">23.75</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[PRESTATIONS TECHNIQUES BRICE MELIN
+01/09/2026 - TICKET 01033247
+BUZON - SERVEUR - TULIN    DONNE LES ACCES
+SUR MARKETING POUR TULIN <IHC>]]></cbc:Description>
+<cbc:Name>IT-BME</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>IT-BME</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">95</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>35</cbc:ID>
+<cbc:InvoicedQuantity unitCode="HUR">0.25</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">23.75</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[PRESTATIONS TECHNIQUES GWENAEL DUHOUX
+03/09/2026 - TICKET 01033951
+BUZON - RCARRE - LICENCE BASIC MORGAN
+COHEN    DEMANDE DE LICENCE  CREATION
+COMPTE + MAIL   AJOUT DES ALIAS <IHC>]]></cbc:Description>
+<cbc:Name>IT-GDU</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>IT-GDU</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">95</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>40</cbc:ID>
+<cbc:InvoicedQuantity unitCode="HUR">0.25</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">23.75</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[PRESTATIONS TECHNIQUES GWENAEL DUHOUX
+03/09/2026 - TICKET 01033952
+BUZON - RCARRE - DESACTIVE LA LICENCE
+COMMERCIAL.PACA.OCCITANIE@BUZON.FR
+DESACTIVATION DE L'ADRESSE MAIL  TRANSFERT
+DES MAILS   ENLEVER LA LICENCE <IHC>]]></cbc:Description>
+<cbc:Name>IT-GDU</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>IT-GDU</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">95</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>45</cbc:ID>
+<cbc:InvoicedQuantity unitCode="HUR">0.25</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">23.75</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[PRESTATIONS TECHNIQUES NOA SCIARRATA
+03/09/2026 - TICKET 01034196
+RE: BUZON - SERVEUR - SALES@BUZONUSA.US
+NSC : ACCES MARKETING A ARTHUR DE PATOUL
+(SALES@BUZONUSA.US) OK <IHC>]]></cbc:Description>
+<cbc:Name>IT-NSC</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>IT-NSC</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">95</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+<cac:InvoiceLine>
+<cbc:ID>50</cbc:ID>
+<cbc:InvoicedQuantity unitCode="HUR">1.5</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="EUR">142.5</cbc:LineExtensionAmount>
+<cac:Item>
+<cbc:Description><![CDATA[PRESTATIONS TECHNIQUES GWENAEL DUHOUX
+29/09/2026 - TICKET 01039639
+BUZON - RCARRE - DOCK STATION    MISE A
+JOUR DES DOCKING DELL ( 8 )   REMETTRE LES
+CABLES SUR LES DOCKING   TEST   SOLUTION
+POUR TRANSFERT DES DONNEES DU PORTABLE
+AVEC ECRAN CASSE]]></cbc:Description>
+<cbc:Name>IT-GDU</cbc:Name>
+<cac:SellersItemIdentification>
+<cbc:ID>IT-GDU</cbc:ID>
+</cac:SellersItemIdentification>
+<cac:ClassifiedTaxCategory>
+<cbc:ID>S</cbc:ID>
+<cbc:Percent>21</cbc:Percent>
+<cac:TaxScheme>
+<cbc:ID>VAT</cbc:ID>
+</cac:TaxScheme>
+</cac:ClassifiedTaxCategory>
+</cac:Item>
+<cac:Price>
+<cbc:PriceAmount currencyID="EUR">95</cbc:PriceAmount>
+</cac:Price>
+</cac:InvoiceLine>
+</Invoice>

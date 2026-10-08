@@ -1,0 +1,19 @@
+{
+  "profiles": {
+    "STANDARD": {
+      "commandName": "Project",
+      "commandLineArgs": "STANDARD;RCARREBE;IBGRAF",
+      "workingDirectory": "$(OutputPath)"
+    },
+    "DOM": {
+      "commandName": "Project",
+      "commandLineArgs": "DOM;2500;IBGRAF",
+      "workingDirectory": "$(OutputPath)"
+    },
+    "MULTI": {
+      "commandName": "Project",
+      "commandLineArgs": "MULTI;2500;IBGRAF",
+      "workingDirectory": "$(OutputPath)"
+    }
+  }
+}
