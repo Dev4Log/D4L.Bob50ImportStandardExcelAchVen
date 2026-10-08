@@ -37,7 +37,7 @@
     <ApplicationIcon>Icone Dev4Log.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Dev4LogBob50ImportStandardExcelAchVen.Program</StartupObject>
+    <StartupObject>D4L.Bob50ImportStandardExcelAchVen.Program</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <Nullable>disable</Nullable>

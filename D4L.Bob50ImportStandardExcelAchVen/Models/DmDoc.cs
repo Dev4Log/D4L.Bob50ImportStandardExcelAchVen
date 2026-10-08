@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Dev4LogLayer.Bob50.Models;
 
-namespace Dev4LogBob50ImportStandardExcelAchVen.Models
+namespace D4L.Bob50ImportStandardExcelAchVen.Models
 {
     public class DmDoc
     {

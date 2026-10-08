@@ -2,7 +2,7 @@
 using System.Diagnostics;
 using System.Windows.Forms;
 
-namespace Dev4LogBob50ImportStandardExcelAchVen
+namespace D4L.Bob50ImportStandardExcelAchVen
 {
     static class Outils
     {

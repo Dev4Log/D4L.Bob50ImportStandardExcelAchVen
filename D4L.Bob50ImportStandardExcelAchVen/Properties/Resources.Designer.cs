@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Dev4LogBob50ImportStandardExcelAchVen.Properties {
+namespace D4L.Bob50ImportStandardExcelAchVen.Properties {
     using System;
     
     

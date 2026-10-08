@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Data;
 using Dev4LogLayer.Daos;
-using Dev4LogBob50ImportStandardExcelAchVen.Models;
+using D4L.Bob50ImportStandardExcelAchVen.Models;
 using Dev4LogLayer.Bob50.Models;
 using Dev4LogLayer.Bob50;
 using Dev4LogLayer.Globals;
@@ -10,7 +10,7 @@ using System.Windows.Forms;
 using Dev4LogLayer.Exceptions;
 using System.Text;
 
-namespace Dev4LogBob50ImportStandardExcelAchVen.DAO
+namespace D4L.Bob50ImportStandardExcelAchVen.DAO
 {
     public static class DaoBob
     {

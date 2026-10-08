@@ -1,4 +1,4 @@
-﻿namespace Dev4LogBob50ImportStandardExcelAchVen.GUI
+﻿namespace D4L.Bob50ImportStandardExcelAchVen.GUI
 {
     partial class ImportsExcel
     {

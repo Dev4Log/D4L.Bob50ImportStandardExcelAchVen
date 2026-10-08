@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Windows.Forms;
 using Dev4LogLayer.Globals;
-using Dev4LogBob50ImportStandardExcelAchVen.Controller;
+using D4L.Bob50ImportStandardExcelAchVen.Controller;
 
-namespace Dev4LogBob50ImportStandardExcelAchVen
+namespace D4L.Bob50ImportStandardExcelAchVen
 {
     static class Program
     {

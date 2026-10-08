@@ -9,7 +9,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Dev4Log Srl")]
-[assembly: AssemblyProduct("Dev4LogBob50ImportStandardExcelAchVen")]
+[assembly: AssemblyProduct("D4L.Bob50ImportStandardExcelAchVen")]
 [assembly: AssemblyCopyright("Copyright © Dev4Log Srl 2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

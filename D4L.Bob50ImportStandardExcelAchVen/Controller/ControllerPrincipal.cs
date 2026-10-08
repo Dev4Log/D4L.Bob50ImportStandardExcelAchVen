@@ -6,10 +6,10 @@ using Microsoft.Extensions.Configuration;
 using Dev4LogLayer.Bob50;
 using Dev4LogLayer.Globals;
 using Dev4LogLicence = Dev4LogLayer.License;
-using Dev4LogBob50ImportStandardExcelAchVen.DAO;
+using D4L.Bob50ImportStandardExcelAchVen.DAO;
 
 
-namespace Dev4LogBob50ImportStandardExcelAchVen.Controller
+namespace D4L.Bob50ImportStandardExcelAchVen.Controller
 {
     
     public class ControllerPrincipal

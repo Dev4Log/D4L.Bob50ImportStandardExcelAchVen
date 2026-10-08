@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Dev4LogLayer.Bob50.Models;
 
-namespace Dev4LogBob50ImportStandardExcelAchVen
+namespace D4L.Bob50ImportStandardExcelAchVen
 {
     public static class VarGlobal
     {

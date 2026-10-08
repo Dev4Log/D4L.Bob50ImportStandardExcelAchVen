@@ -1,4 +1,4 @@
-﻿namespace Dev4LogBob50ImportStandardExcelAchVen.Models
+﻿namespace D4L.Bob50ImportStandardExcelAchVen.Models
 {
     public class CompDe
     {
