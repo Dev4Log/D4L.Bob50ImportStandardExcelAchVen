@@ -1025,12 +1025,12 @@ namespace D4L.Bob50ImportStandardExcelAchVen.Controller
                                     else
                                         HeaderVEN.TdueDate = Convert.ToDateTime(ExcellArray[BIE_DATEDOC]);
                                     if (ExcellArray[BIE_DEVISE] == "" || ExcellArray[BIE_DEVISE] == DeviseBaseDossier)
-                                        HeaderVEN.TAmount = Convert.ToDouble(ExcellArray[BIE_TOTALTTC]);
+                                        HeaderVEN.TAmount = Math.Round(Convert.ToDouble(ExcellArray[BIE_TOTALTTC]), 2);
                                     else
                                     {
                                         TotalTTC = Math.Round(Convert.ToDouble(ExcellArray[BIE_TOTALTTC]) / CoursDevise, 2);
                                         HeaderVEN.TAmount = TotalTTC;
-                                        HeaderVEN.TCurAmn = Convert.ToDouble(ExcellArray[BIE_TOTALTTC]);
+                                        HeaderVEN.TCurAmn = Math.Round(Convert.ToDouble(ExcellArray[BIE_TOTALTTC]), 2);
                                         HeaderVEN.TCurrency = ExcellArray[BIE_DEVISE];
                                         HeaderVEN.TCurRate = CoursDevise;
                                     }
@@ -1056,12 +1056,12 @@ namespace D4L.Bob50ImportStandardExcelAchVen.Controller
                                     else
                                         HeaderNCV.TdueDate = Convert.ToDateTime(ExcellArray[BIE_DATEDOC]);
                                     if (ExcellArray[BIE_DEVISE] == "" || ExcellArray[BIE_DEVISE] == DeviseBaseDossier)
-                                        HeaderNCV.TAmount = Convert.ToDouble(ExcellArray[BIE_TOTALTTC]);
+                                        HeaderNCV.TAmount = Math.Round(Convert.ToDouble(ExcellArray[BIE_TOTALTTC]), 2);
                                     else
                                     {
                                         TotalTTC = Math.Round(Convert.ToDouble(ExcellArray[BIE_TOTALTTC]) / CoursDevise, 2);
                                         HeaderNCV.TAmount = TotalTTC;
-                                        HeaderNCV.TCurAmn = Convert.ToDouble(ExcellArray[BIE_TOTALTTC]);
+                                        HeaderNCV.TCurAmn = Math.Round(Convert.ToDouble(ExcellArray[BIE_TOTALTTC]), 2);
                                         HeaderNCV.TCurrency = ExcellArray[BIE_DEVISE];
                                         HeaderNCV.TCurRate = CoursDevise;
                                     }
@@ -1087,12 +1087,12 @@ namespace D4L.Bob50ImportStandardExcelAchVen.Controller
                                     else
                                         HeaderACH.TdueDate = Convert.ToDateTime(ExcellArray[BIE_DATEDOC]);
                                     if (ExcellArray[BIE_DEVISE] == "" || ExcellArray[BIE_DEVISE] == DeviseBaseDossier)
-                                        HeaderACH.TAmount = Convert.ToDouble(ExcellArray[BIE_TOTALTTC]);
+                                        HeaderACH.TAmount = Math.Round(Convert.ToDouble(ExcellArray[BIE_TOTALTTC]), 2);
                                     else
                                     {
                                         TotalTTC = Math.Round(Convert.ToDouble(ExcellArray[BIE_TOTALTTC]) / CoursDevise, 2);
                                         HeaderACH.TAmount = TotalTTC;
-                                        HeaderACH.TCurAmn = Convert.ToDouble(ExcellArray[BIE_TOTALTTC]);
+                                        HeaderACH.TCurAmn = Math.Round(Convert.ToDouble(ExcellArray[BIE_TOTALTTC]), 2);
                                         HeaderACH.TCurrency = ExcellArray[BIE_DEVISE];
                                         HeaderACH.TCurRate = CoursDevise;
                                     }
@@ -1119,12 +1119,12 @@ namespace D4L.Bob50ImportStandardExcelAchVen.Controller
                                     else
                                         HeaderNCA.TdueDate = Convert.ToDateTime(ExcellArray[BIE_DATEDOC]);
                                     if (ExcellArray[BIE_DEVISE] == "" || ExcellArray[BIE_DEVISE] == DeviseBaseDossier)
-                                        HeaderNCA.TAmount = Convert.ToDouble(ExcellArray[BIE_TOTALTTC]);
+                                        HeaderNCA.TAmount = Math.Round(Convert.ToDouble(ExcellArray[BIE_TOTALTTC]), 2);
                                     else
                                     {
                                         TotalTTC = Math.Round(Convert.ToDouble(ExcellArray[BIE_TOTALTTC]) / CoursDevise, 2);
                                         HeaderNCA.TAmount = TotalTTC;
-                                        HeaderNCA.TCurAmn = Convert.ToDouble(ExcellArray[BIE_TOTALTTC]);
+                                        HeaderNCA.TCurAmn = Math.Round(Convert.ToDouble(ExcellArray[BIE_TOTALTTC]), 2);
                                         HeaderNCA.TCurrency = ExcellArray[BIE_DEVISE];
                                         HeaderNCA.TCurRate = CoursDevise;
                                     }
@@ -1157,20 +1157,20 @@ namespace D4L.Bob50ImportStandardExcelAchVen.Controller
                                 LineVEN.Tdocdate = Convert.ToDateTime(ExcellArray[BIE_DATEDOC]);
                                 if (ExcellArray[BIE_DEVISE] == "" || ExcellArray[BIE_DEVISE] == DeviseBaseDossier)
                                 {
-                                    BaseTva = Convert.ToDouble(ExcellArray[BIE_BASE]);
-                                    Tva = Convert.ToDouble(ExcellArray[BIE_TVA]);
+                                    BaseTva = Math.Round(Convert.ToDouble(ExcellArray[BIE_BASE]), 2);
+                                    Tva = Math.Round(Convert.ToDouble(ExcellArray[BIE_TVA]), 2);
                                     TotalBase = TotalBase + BaseTva;
                                     TotalTva = TotalTva + Tva;
-                                    LineVEN.Tamount = Convert.ToDouble(ExcellArray[BIE_BASE]);
-                                    LineVEN.TBasVat = Convert.ToDouble(ExcellArray[BIE_BASE]);
-                                    LineVEN.TBasLstAmn = Convert.ToDouble(ExcellArray[BIE_BASE]);
+                                    LineVEN.Tamount = Math.Round(Convert.ToDouble(ExcellArray[BIE_BASE]), 2);
+                                    LineVEN.TBasVat = Math.Round(Convert.ToDouble(ExcellArray[BIE_BASE]), 2);
+                                    LineVEN.TBasLstAmn = Math.Round(Convert.ToDouble(ExcellArray[BIE_BASE]), 2);
                                     if (TvaActive && journalInfos.Iswithvat)
                                     {
-                                        LineVEN.TVatTotAmn = Convert.ToDouble(ExcellArray[BIE_TVA]);
-                                        TvaDeduc = Math.Round((Convert.ToDouble(ExcellArray[BIE_TVA]) / 100) * tvainfos.Vdeduc, 2);
+                                        LineVEN.TVatTotAmn = Math.Round(Convert.ToDouble(ExcellArray[BIE_TVA]), 2);
+                                        TvaDeduc = Math.Round((Math.Round(Convert.ToDouble(ExcellArray[BIE_TVA]), 2) / 100) * tvainfos.Vdeduc, 2);
                                         LineVEN.TVatAmn = TvaDeduc;
                                         if (tvainfos.Vkind == "D")
-                                            LineVEN.TVatDblAmn = Convert.ToDouble(ExcellArray[BIE_TVA]);
+                                            LineVEN.TVatDblAmn = Math.Round(Convert.ToDouble(ExcellArray[BIE_TVA]), 2);
                                     }
                                 }
                                 else
@@ -1194,13 +1194,13 @@ namespace D4L.Bob50ImportStandardExcelAchVen.Controller
                                     if (TvaActive && journalInfos.Iswithvat)
                                     {
 
-                                        LineVEN.TCurAmn = Convert.ToDouble(ExcellArray[BIE_BASE]);
-                                        LineVEN.TCbVat = Convert.ToDouble(ExcellArray[BIE_BASE]);
-                                        LineVEN.TVcTotAmn = Convert.ToDouble(ExcellArray[BIE_TVA]);
-                                        TvaDeduc = Math.Round((Convert.ToDouble(ExcellArray[BIE_TVA]) / 100) * tvainfos.Vdeduc, 2);
+                                        LineVEN.TCurAmn = Math.Round(Convert.ToDouble(ExcellArray[BIE_BASE]), 2);
+                                        LineVEN.TCbVat = Math.Round(Convert.ToDouble(ExcellArray[BIE_BASE]), 2);
+                                        LineVEN.TVcTotAmn = Math.Round(Convert.ToDouble(ExcellArray[BIE_TVA]), 2);
+                                        TvaDeduc = Math.Round((Math.Round(Convert.ToDouble(ExcellArray[BIE_TVA]), 2) / 100) * tvainfos.Vdeduc, 2);
                                         LineVEN.TCurVatAmn = TvaDeduc;
                                         if (tvainfos.Vkind == "D")
-                                            LineVEN.TVatDblAmn = Convert.ToDouble(ExcellArray[BIE_TVA]);
+                                            LineVEN.TVatDblAmn = Math.Round(Convert.ToDouble(ExcellArray[BIE_TVA]), 2);
                                     }
                                 }
                                 if (TvaActive && journalInfos.Iswithvat)
@@ -1255,16 +1255,16 @@ namespace D4L.Bob50ImportStandardExcelAchVen.Controller
                                 LineNCV.Tdocdate = Convert.ToDateTime(ExcellArray[BIE_DATEDOC]);
                                 if (ExcellArray[BIE_DEVISE] == "" || ExcellArray[BIE_DEVISE] == DeviseBaseDossier)
                                 {
-                                    LineNCV.Tamount = Convert.ToDouble(ExcellArray[BIE_BASE]);
-                                    LineNCV.TBasVat = Convert.ToDouble(ExcellArray[BIE_BASE]);
-                                    LineNCV.TBasLstAmn = Convert.ToDouble(ExcellArray[BIE_BASE]);
+                                    LineNCV.Tamount = Math.Round(Convert.ToDouble(ExcellArray[BIE_BASE]), 2);
+                                    LineNCV.TBasVat = Math.Round(Convert.ToDouble(ExcellArray[BIE_BASE]), 2);
+                                    LineNCV.TBasLstAmn = Math.Round(Convert.ToDouble(ExcellArray[BIE_BASE]), 2);
                                     if (TvaActive && journalInfos.Iswithvat)
                                     {
-                                        LineNCV.TVatTotAmn = Convert.ToDouble(ExcellArray[BIE_TVA]);
-                                        TvaDeduc = Math.Round((Convert.ToDouble(ExcellArray[BIE_TVA]) / 100) * tvainfos.Vdeduc, 2);
+                                        LineNCV.TVatTotAmn = Math.Round(Convert.ToDouble(ExcellArray[BIE_TVA]), 2);
+                                        TvaDeduc = Math.Round((Math.Round(Convert.ToDouble(ExcellArray[BIE_TVA]), 2) / 100) * tvainfos.Vdeduc, 2);
                                         LineNCV.TVatAmn = TvaDeduc;
                                         if (tvainfos.Vkind == "D")
-                                            LineNCV.TVatDblAmn = Convert.ToDouble(ExcellArray[BIE_TVA]);
+                                            LineNCV.TVatDblAmn = Math.Round(Convert.ToDouble(ExcellArray[BIE_TVA]), 2);
                                     }
                                 }
                                 else
@@ -1285,16 +1285,16 @@ namespace D4L.Bob50ImportStandardExcelAchVen.Controller
                                             LineNCV.TVatDblAmn = Tva;
                                     }
 
-                                    LineNCV.TCurAmn = Convert.ToDouble(ExcellArray[BIE_BASE]);
-                                    LineNCV.TCbVat = Convert.ToDouble(ExcellArray[BIE_BASE]);
+                                    LineNCV.TCurAmn = Math.Round(Convert.ToDouble(ExcellArray[BIE_BASE]), 2);
+                                    LineNCV.TCbVat = Math.Round(Convert.ToDouble(ExcellArray[BIE_BASE]), 2);
 
                                     if (TvaActive && journalInfos.Iswithvat)
                                     {
-                                        LineNCV.TVcTotAmn = Convert.ToDouble(ExcellArray[BIE_TVA]);
-                                        TvaDeduc = Math.Round((Convert.ToDouble(ExcellArray[BIE_TVA]) / 100) * tvainfos.Vdeduc, 2);
+                                        LineNCV.TVcTotAmn = Math.Round(Convert.ToDouble(ExcellArray[BIE_TVA]), 2);
+                                        TvaDeduc = Math.Round((Math.Round(Convert.ToDouble(ExcellArray[BIE_TVA]), 2) / 100) * tvainfos.Vdeduc, 2);
                                         LineNCV.TCurVatAmn = TvaDeduc;
                                         if (tvainfos.Vkind == "D")
-                                            LineNCV.TVcDblAmn = Convert.ToDouble(ExcellArray[BIE_TVA]);
+                                            LineNCV.TVcDblAmn = Math.Round(Convert.ToDouble(ExcellArray[BIE_TVA]), 2);
                                     }
                                 }
                                 if (TvaActive && journalInfos.Iswithvat)
@@ -1349,16 +1349,16 @@ namespace D4L.Bob50ImportStandardExcelAchVen.Controller
                                 LineACH.Tdocdate = Convert.ToDateTime(ExcellArray[BIE_DATEDOC]);
                                 if (ExcellArray[BIE_DEVISE] == "" || ExcellArray[BIE_DEVISE] == DeviseBaseDossier)
                                 {
-                                    LineACH.Tamount = Convert.ToDouble(ExcellArray[BIE_BASE]);
-                                    LineACH.TBasVat = Convert.ToDouble(ExcellArray[BIE_BASE]);
-                                    LineACH.TBasLstAmn = Convert.ToDouble(ExcellArray[BIE_BASE]);
+                                    LineACH.Tamount = Math.Round(Convert.ToDouble(ExcellArray[BIE_BASE]), 2);
+                                    LineACH.TBasVat = Math.Round(Convert.ToDouble(ExcellArray[BIE_BASE]), 2);
+                                    LineACH.TBasLstAmn = Math.Round(Convert.ToDouble(ExcellArray[BIE_BASE]), 2);
                                     if (TvaActive && journalInfos.Iswithvat)
                                     {
-                                        LineACH.TVatTotAmn = Convert.ToDouble(ExcellArray[BIE_TVA]);
-                                        TvaDeduc = Math.Round((Convert.ToDouble(ExcellArray[BIE_TVA]) / 100) * tvainfos.Vdeduc, 2);
+                                        LineACH.TVatTotAmn = Math.Round(Convert.ToDouble(ExcellArray[BIE_TVA]), 2);
+                                        TvaDeduc = Math.Round((Math.Round(Convert.ToDouble(ExcellArray[BIE_TVA]), 2) / 100) * tvainfos.Vdeduc, 2);
                                         LineACH.TVatAmn = TvaDeduc;
                                         if (tvainfos.Vkind == "D")
-                                            LineACH.TVatDblAmn = Convert.ToDouble(ExcellArray[BIE_TVA]);
+                                            LineACH.TVatDblAmn = Math.Round(Convert.ToDouble(ExcellArray[BIE_TVA]), 2);
                                     }
                                 }
                                 else
@@ -1379,16 +1379,16 @@ namespace D4L.Bob50ImportStandardExcelAchVen.Controller
                                             LineACH.TVatDblAmn = Tva;
                                     }
 
-                                    LineACH.TCurAmn = Convert.ToDouble(ExcellArray[BIE_BASE]);
-                                    LineACH.TCbVat = Convert.ToDouble(ExcellArray[BIE_BASE]);
+                                    LineACH.TCurAmn = Math.Round(Convert.ToDouble(ExcellArray[BIE_BASE]), 2);
+                                    LineACH.TCbVat = Math.Round(Convert.ToDouble(ExcellArray[BIE_BASE]), 2);
 
                                     if (TvaActive && journalInfos.Iswithvat)
                                     {
-                                        LineACH.TVcTotAmn = Convert.ToDouble(ExcellArray[BIE_TVA]);
-                                        TvaDeduc = Math.Round((Convert.ToDouble(ExcellArray[BIE_TVA]) / 100) * tvainfos.Vdeduc, 2);
+                                        LineACH.TVcTotAmn = Math.Round(Convert.ToDouble(ExcellArray[BIE_TVA]), 2);
+                                        TvaDeduc = Math.Round((Math.Round(Convert.ToDouble(ExcellArray[BIE_TVA]), 2) / 100) * tvainfos.Vdeduc, 2);
                                         LineACH.TCurVatAmn = TvaDeduc;
                                         if (tvainfos.Vkind == "D")
-                                            LineACH.TVcDblAmn = Convert.ToDouble(ExcellArray[BIE_TVA]);
+                                            LineACH.TVcDblAmn = Math.Round(Convert.ToDouble(ExcellArray[BIE_TVA]), 2);
                                     }
                                 }
                                 if (TvaActive && journalInfos.Iswithvat)
@@ -1443,16 +1443,16 @@ namespace D4L.Bob50ImportStandardExcelAchVen.Controller
                                 LineNCA.Tdocdate = Convert.ToDateTime(ExcellArray[BIE_DATEDOC]);
                                 if (ExcellArray[BIE_DEVISE] == "" || ExcellArray[BIE_DEVISE] == DeviseBaseDossier)
                                 {
-                                    LineNCA.Tamount = Convert.ToDouble(ExcellArray[BIE_BASE]);
-                                    LineNCA.TBasVat = Convert.ToDouble(ExcellArray[BIE_BASE]);
+                                    LineNCA.Tamount = Math.Round(Convert.ToDouble(ExcellArray[BIE_BASE]), 2);
+                                    LineNCA.TBasVat = Math.Round(Convert.ToDouble(ExcellArray[BIE_BASE]), 2);
                                     if (TvaActive && journalInfos.Iswithvat)
                                     {
-                                        LineNCA.TBasLstAmn = Convert.ToDouble(ExcellArray[BIE_BASE]);
-                                        LineNCA.TVatTotAmn = Convert.ToDouble(ExcellArray[BIE_TVA]);
-                                        TvaDeduc = Math.Round((Convert.ToDouble(ExcellArray[BIE_TVA]) / 100) * tvainfos.Vdeduc, 2);
+                                        LineNCA.TBasLstAmn = Math.Round(Convert.ToDouble(ExcellArray[BIE_BASE]), 2);
+                                        LineNCA.TVatTotAmn = Math.Round(Convert.ToDouble(ExcellArray[BIE_TVA]), 2);
+                                        TvaDeduc = Math.Round((Math.Round(Convert.ToDouble(ExcellArray[BIE_TVA]), 2) / 100) * tvainfos.Vdeduc, 2);
                                         LineNCA.TVatAmn = TvaDeduc;
                                         if (tvainfos.Vkind == "D")
-                                            LineNCA.TVatDblAmn = Convert.ToDouble(ExcellArray[BIE_TVA]);
+                                            LineNCA.TVatDblAmn = Math.Round(Convert.ToDouble(ExcellArray[BIE_TVA]), 2);
                                     }
                                 }
                                 else
@@ -1473,16 +1473,16 @@ namespace D4L.Bob50ImportStandardExcelAchVen.Controller
                                             LineNCA.TVatDblAmn = Tva;
                                     }
 
-                                    LineNCA.TCurAmn = Convert.ToDouble(ExcellArray[BIE_BASE]);
-                                    LineNCA.TCbVat = Convert.ToDouble(ExcellArray[BIE_BASE]);
+                                    LineNCA.TCurAmn = Math.Round(Convert.ToDouble(ExcellArray[BIE_BASE]), 2);
+                                    LineNCA.TCbVat = Math.Round(Convert.ToDouble(ExcellArray[BIE_BASE]), 2);
 
                                     if (TvaActive && journalInfos.Iswithvat)
                                     {
-                                        LineNCA.TVcTotAmn = Convert.ToDouble(ExcellArray[BIE_TVA]);
-                                        TvaDeduc = Math.Round((Convert.ToDouble(ExcellArray[BIE_TVA]) / 100) * tvainfos.Vdeduc, 2);
+                                        LineNCA.TVcTotAmn = Math.Round(Convert.ToDouble(ExcellArray[BIE_TVA]), 2);
+                                        TvaDeduc = Math.Round((Math.Round(Convert.ToDouble(ExcellArray[BIE_TVA]), 2) / 100) * tvainfos.Vdeduc, 2);
                                         LineNCA.TCurAmn = TvaDeduc;
                                         if (tvainfos.Vkind == "D")
-                                            LineNCA.TVcDblAmn = Convert.ToDouble(ExcellArray[BIE_TVA]);
+                                            LineNCA.TVcDblAmn = Math.Round(Convert.ToDouble(ExcellArray[BIE_TVA]), 2);
                                     }
                                 }
                                 if (TvaActive && journalInfos.Iswithvat)

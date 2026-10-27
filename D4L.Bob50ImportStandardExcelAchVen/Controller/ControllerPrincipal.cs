@@ -1,12 +1,15 @@
-﻿using System;
-using System.IO;
-using System.Configuration;
-using System.Windows.Forms;
-using Microsoft.Extensions.Configuration;
+﻿using D4L.Bob50ImportStandardExcelAchVen.DAO;
 using Dev4LogLayer.Bob50;
 using Dev4LogLayer.Globals;
+using MathNet.Numerics;
+using Microsoft.Extensions.Configuration;
+using System;
+using System.Configuration;
+using System.IO;
+using System.Windows.Forms;
+using System.Linq;
+
 using Dev4LogLicence = Dev4LogLayer.License;
-using D4L.Bob50ImportStandardExcelAchVen.DAO;
 
 
 namespace D4L.Bob50ImportStandardExcelAchVen.Controller
@@ -32,7 +35,9 @@ namespace D4L.Bob50ImportStandardExcelAchVen.Controller
 
             #region VALIDATION DE LA LICENCE
 
-            DateTime licenceDate = Dev4LogLicence.ControllerLicense.CheckLicense();
+            string licencePath = Directory.GetFiles(AppDomain.CurrentDomain.BaseDirectory, "*.lic").FirstOrDefault();
+
+            DateTime licenceDate = Dev4LogLicence.ControllerLicense.CheckLicense(licencePath);
             if (licenceDate < DateTime.Now)
             {
                 licenceOk = false;
